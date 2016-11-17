@@ -1,0 +1,270 @@
+
+/*this links together the HTML*/
+/*HTML is about structure*/
+/*css = cascading style sheets, helps with style and display of webpage
+*/
+body {font-family: Arial;
+	color: white ;
+	font-size: 12px;
+	/*text-align: center;*/
+	/*to get rid of the space at the top that is built in*/
+	margin: 0px;
+
+}
+/*stuff u need to memorize ^^*/
+/*css -- take this element "Body" and style it this way*/
+ul {
+	list-style: none;
+	margin: 0px;
+}
+
+img{
+	width: 350px;
+	/*border-radius: 30%;
+	border: 6px dashed  black;*/
+
+}
+
+a {
+	color: black;
+	font-size: 18px;
+}
+
+p {
+	font-family: American Typewriter ;
+}
+
+.special {
+	color: black;
+	margin: 0;
+}
+/*inorder to change the color of the specific (2nd_ paragraph, add a class*/
+.topsection {
+background: url("wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.headings{
+	/*this is how you do inline!!
+	*/
+	width: 10%;
+}
+.content{
+	/*element, padding are toegether, border is outside the elemnt, and margin is outside the border */
+}
+
+/*in order to get the navigation bar looking right. lets make it inline*/
+li {
+	display: inline-block;
+	text-align: right;
+	/*if u are styling a class, you have to use the ".*/
+	padding-right: 100px;
+
+}
+ul {
+	text-align: right;
+	padding-top: 15px;
+}
+.nav{
+	background-color: white;
+	/*if we want the nav bar to be a certain height, change that*/
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
+.prof_pic img {
+	border-radius: 100%; 
+}
+.prof_pic {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 50px;
+
+}
+/*easy way to center divs, always give a size and magin0*/
+
+.headings {
+	text-align: center;
+	margin: 0 auto;
+
+}
+.nav ul {
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+}
+.about-me {
+	background-color: pink;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+
+}
+.about-title{
+	padding-top: 10px;
+}
+.MyWork {
+	text-align: center;
+}
+
+.contact-me {
+	text-align: center;
+}
+.about-img {
+	display: inline-block;
+	width: 50%;
+
+}
+/*	height: 50px;
+/*/
+	/*background-color: red;*/
+/*/}
+/*i want this div to take up of 50% of the width of the page, responsive!!!! dope*/
+.about-body {
+	display: inline-block;
+	width: 50%;
+	height: 50px;
+/*	background-color: blue;
+*/	vertical-align: top;
+	color: black;
+}
+
+.about-img img {
+	width: 300px;
+/*	border-radius: 100%
+*/	
+}
+
+.about-me {
+	width: 100%
+}
+.MyWork {
+	font-size: 15px;
+	background-color: green;
+	color: black;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.work-title {
+	padding-top: 50px;
+}
+
+
+.Barclays, .PwP, .Hackcville {
+	display: inline-block;
+	width: 33%;
+	margin: 0 auto;
+	padding: 30px 0;
+	vertical-align: top;
+	text-align: center;
+}
+
+.trialpic {
+	width: 60%;
+	max-width: 500px;
+	height: auto;
+}
+
+
+.trialpic img {
+	width: 100%;
+	height: auto;
+
+}
+
+.Backgrounds a {
+	text-decoration: none;
+	color: blue;
+}
+
+.Backgrounds
+{
+}
+
+.B1 {
+	background: url(B1.jpeg);
+	background-size: cover;
+	display: inline-block;
+	width: 33%;
+	height: 300px; 
+	position: relative;
+
+}
+
+.B1-content {
+	position: absolute;
+	font-weight: bold;
+	bottom: 0;
+	color: blue;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+.B2 {
+	position: relative;
+	background: url(B2.jpeg);
+
+	background-size: cover;
+	display: inline-block;
+	width: 33%;
+	height: 300px; 
+	} 
+
+.B2-content {
+	position: absolute;
+	bottom: 0;
+	font-weight: bold;
+	color: blue;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+.B3 {
+	background: url(B3.jpeg);
+	background-size: cover;
+	display: inline-block;
+	width: 33%;
+	height: 300px; 
+	position: relative;
+
+	}
+
+
+.B3-content {
+	position: absolute;
+	font-weight: bold;
+	bottom: 0;
+	padding: 20px 20px 20px 20px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+
+@media only screen and (max-width: 650px) {
+		.about-img, .about-body {
+			width: 100%;
+		}
+
+}
+/*@media -- this is a media query, we are paying attention to the screen,
+nd anything within the curly braces to apply to 
+anything with 768 px or lower*/
+
+
